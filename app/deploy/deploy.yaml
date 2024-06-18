@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: shubham81994/goal-app:sha-294c59b
+        image: shubham81994/goal-app:sha-96f595a
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
