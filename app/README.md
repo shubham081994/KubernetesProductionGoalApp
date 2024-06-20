@@ -40,6 +40,7 @@ kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/late
 # GithubActions and ArgoCD
 
 ## Steps 
+```
 Create .github/workflows folder 
 Create a file build-push-image.yaml 
 Create a jinja template app/tmpl/deploy.j2
@@ -47,6 +48,7 @@ Create deployment file - /app/deploy/deploy.yaml
 Create GitHub Actions secret - DOCKERHUB_USERNAME and DOCKERHUB_PASSWORD
 Make sure your actions have push access as well. 
 
+```
 
 ## Install ArgoCd
 ```
